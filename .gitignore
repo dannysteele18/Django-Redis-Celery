@@ -1,0 +1,4 @@
+*.db
+db.sqlite3
+feed/__pycache__
+xmlfeed/__pycache__
