@@ -22,4 +22,4 @@ def add():
 
     print(random_name)
 
-    Item.objects.get_or_create(name=random_name)
+    Item.objects.get_or_create(name=('Random Name' + random_name))
